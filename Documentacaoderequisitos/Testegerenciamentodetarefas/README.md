@@ -108,6 +108,6 @@ graph TD
     RF001 --> TC001['TC-001: Criação] 
 
     NS002['NS-002: Organização']--> RF002['RF-002: Projetos']
-    RF002 --> TC002 ['TC-002: Teste Projetos']
+    RF002 --> TC002['TC-002: Teste Projetos']
 
 ```
