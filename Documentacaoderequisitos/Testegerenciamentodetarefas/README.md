@@ -66,6 +66,19 @@ O SGT será uma aplicação web responsiva com sincronização em nuvem
   
 ---
 
+### RF-003: Marcação de Tarefas como Concluída
+
+**Descrição**: O sistema deve permitir a marcação de tarefa como concluída
+**Prioridade**: Média
+**Versão**: 1.0
+**Data**: 2026-04-08
+**Rastreabilidade**: Derivado de NS-001
+**Critérios de Aceitação**: 
+
+- [ ] Usuário pode criar, renomear e excluir projetos
+- [ ] Tarefas podem ser atribuídas a um ou mais projetos
+- [ ] Visualização filtrada por projetos
+
 ### 3.2 Requisitos Não-Funcionais
 
 #### RNF-001: Desempenho
@@ -90,11 +103,13 @@ O SGT será uma aplicação web responsiva com sincronização em nuvem
 
 ## 4. Controle de Versões
 
+
 ### Histórico de Alterações
 
 |Versão|Data|Autor|Modificação|
 |------|----|-----|-----------|
 | 1.0  |2026-03-25|SophiaCanciani|Versão Inicial|
+| 1.1  |2026-04-08|SophiaCanciani|Adicionada a RF-003|
 
 ### Ratreabilidade
 
@@ -105,9 +120,14 @@ Gráfico de Rastreabilidade
 graph TD
 
     NS001['NS-001: Necessidade StakeHolder] --> RF001['RF-001: Criação Tarefas']
-    RF001 --> TC001['TC-001: Criação] 
+    RF001 --> TC001['TC-001: Criação'] 
 
     NS002['NS-002: Organização']--> RF002['RF-002: Projetos']
-    RF002 --> TC002['TC-002: Teste Projetos']
+    RF002 --> TC002['TC-002: Teste Projetos']   
+
+
+    ns001 ['NS-001: Nessesidade Stakeholder']
+    --> RF003['RF-003: Tarefa Concluída']
+    RF003 -->TC003['TC-003: Teste de Tarefa]
 
 ```
