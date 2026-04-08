@@ -16,7 +16,7 @@ O SGR permitirá que úsuarios criem, organizem e acompanhem tarefas pessoais e 
 - **RF**: Requisitos Funcionais
 - **RNF**: Requisitos Não-Funcionais
 - **Sprint**: Período de 2 semanas de Desenvolvimento
-- 
+  
 ## 2. Descrição Geral
 
 ### 2.1 Pespectiva do Produto 
