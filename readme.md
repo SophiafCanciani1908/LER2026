@@ -46,5 +46,3 @@
     - Mistas: misturam técnicas de reuniões estrturadas com não estrturadas, podem ter tempo de fala, mas sem ordem de fala
     - Ferramentas para BrainStorm:
         - Miro, Mentimeter, OneNote, Google Docs
-
-- Questionário:
